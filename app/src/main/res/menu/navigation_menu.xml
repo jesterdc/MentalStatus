@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Navigation">
+        <menu>
+            <item
+                android:title="Home"
+                android:id="@+id/menuHome"
+                android:icon="@drawable/home"/>
+
+            <item
+                android:title="@string/profile"
+                android:id="@+id/menuProfile"
+                android:icon="@drawable/person"/>
+        </menu>
+    </item>
+
+
+
+
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:title="Logout"
+                android:id="@+id/menuLogout"
+                android:icon="@drawable/logout"/>
+        </menu>
+    </item>
+
+</menu>

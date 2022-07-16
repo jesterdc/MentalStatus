@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.132" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/drawable/radio.xml" value="0.183" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/drawable/round_100.xml" value="0.14" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/drawable/round_back_selected_option.xml" value="0.2325" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/drawable/round_border.xml" value="0.158" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/drawable/round_border2.xml" value="0.1875" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_anxiety_test.xml" value="0.2514792899408284" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_depression_test.xml" value="0.33" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_drawer_base.xml" value="0.33" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_eating_disorder_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_panic_disorder.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_panic_disorder_test.xml" value="0.31666666666666665" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_sleep_disorder_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/activity_stress_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/agreement_dialog.xml" value="0.33" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/content_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/fragment_blank.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/fragment_logout.xml" value="0.17314814814814813" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/fragment_profle.xml" value="0.1" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/fragment_settings.xml" value="0.2742616033755274" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/item_result_depression.xml" value="0.33" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/landing_anx_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/landing_dep_test.xml" value="0.33" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/landing_eating_disorder_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/landing_panic_disorder.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/landing_sleep_disorder_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/landing_str_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/layout_navigation_header.xml" value="0.35104166666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/main_drawer_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/quiz_result_anxiety.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/quiz_result_depression.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/quiz_result_eating_disorder.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/quiz_result_panic_disorder.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/quiz_result_sleep_disorder.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/quiz_result_stress.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/result_history_anxiety.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/result_history_depression.xml" value="0.2798913043478261" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/result_history_eating_disorder.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/result_history_panic_disorder.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/result_history_sleep_disorder.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/layout/result_history_stress.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/menu/navigation_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.219" />
+        <entry key="..\:/jester/3rdYear-2ndSem/MentalStatus/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

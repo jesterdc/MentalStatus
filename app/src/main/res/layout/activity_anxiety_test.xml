@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test_Anxiety"
+    android:background="@color/Dark_Logo">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/currentQuestionTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question 1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/totalQuestionTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/10"
+                android:textColor="@color/Lightest"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_below="@id/topBar"
+        android:layout_marginTop="10dp"
+        android:background="#66FFFFFF"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/questionTV"/>
+
+
+        <RelativeLayout
+            android:id="@+id/option1Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/round_border2">
+
+            <TextView
+                android:id="@+id/option1TV"
+                android:layout_toStartOf="@id/option1Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:text="Option 1"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/option1Icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/radio"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/option2Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_border2">
+
+            <TextView
+                android:id="@+id/option2TV"
+                android:layout_toStartOf="@id/option2Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:text="Option 2"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/option2Icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/radio"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/option3Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_border2">
+
+            <TextView
+                android:id="@+id/option3TV"
+                android:layout_toStartOf="@id/option3Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:text="Option 3"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/option3Icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/radio"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/option4Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_border2">
+
+            <TextView
+                android:id="@+id/option4TV"
+                android:layout_toStartOf="@id/option4Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:text="Option 4"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/option4Icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/radio"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/round_border"
+        android:text="Next Question"/>
+
+
+</RelativeLayout>

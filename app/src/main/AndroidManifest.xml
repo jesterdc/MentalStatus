@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mentalstatus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MentalStatus">
+        <activity
+            android:name=".QuizResult_Stress"
+            android:exported="false" />
+        <activity
+            android:name=".Result_History_EatingDisorder"
+            android:exported="false" />
+        <activity
+            android:name=".QuizResult_EatingDisorder"
+            android:exported="false" />
+        <activity
+            android:name=".Landing_EatingDisorderTest"
+            android:exported="false" />
+        <activity
+            android:name=".Result_History_PanicDisorder"
+            android:exported="false" />
+        <activity
+            android:name=".Landing_PanicDisorder"
+            android:exported="false" />
+        <activity
+            android:name=".QuizResult_PanicDisorder"
+            android:exported="false" />
+        <activity
+            android:name=".Result_History_SleepDisorder"
+            android:exported="false" />
+        <activity
+            android:name=".QuizResult_SleepDisorder"
+            android:exported="false" />
+        <activity
+            android:name=".Landing_SleepDisorderTest"
+            android:exported="false" />
+        <activity
+            android:name=".Result_History_Stress"
+            android:exported="false" />
+        <activity
+            android:name=".Result_History_Depression"
+            android:exported="false" />
+        <activity
+            android:name=".Result_History_Anxiety"
+            android:exported="false" />
+        <activity
+            android:name=".Landing_StrTest"
+            android:exported="false" />
+        <activity
+            android:name=".QuizResult_Anxiety"
+            android:exported="false" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".QuizResult_Depression" />
+        <activity android:name=".Landing_AnxTest" />
+        <activity android:name=".Landing_DepTest" />
+        <activity android:name=".DrawerBaseActivity" />
+        <activity android:name=".Test_EatingDisorder" />
+        <activity android:name=".Test_PanicDisorder" />
+        <activity android:name=".Test_SleepDisorder" />
+        <activity android:name=".Test_Anxiety" />
+        <activity android:name=".Test_Stress" />
+        <activity android:name=".Test_Depression" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

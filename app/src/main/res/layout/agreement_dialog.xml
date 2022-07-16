@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Before you begin"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="16sp"
+                android:id="@+id/agreementTV"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/agreeBtn"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center|bottom"
+                android:background="@drawable/round_border"
+                android:paddingStart="50dp"
+                android:paddingEnd="50dp"
+                android:text="I Agree"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
+<!--       <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:id="@+id/goBack"
+                    android:layout_width="wrap_content"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Go Back"
+                    android:textColor="#BEBEBE"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/agreeBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_border"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="50dp"
+                    android:text="I Agree"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>-->

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "667173537837",
+    "project_id": "mentalstatus-2e712",
+    "storage_bucket": "mentalstatus-2e712.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667173537837:android:e75505aac59a5cb4b850a4",
+        "android_client_info": {
+          "package_name": "com.example.mentalstatus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667173537837-uie3gog78gtkjb8ihfbajqesi5bo4bta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnBN89pI251o71g7P4L1hKVEiEF6JS9D8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667173537837-uie3gog78gtkjb8ihfbajqesi5bo4bta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
